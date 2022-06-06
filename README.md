@@ -1,31 +1,38 @@
+# Trabajo Final de Grado: Organitor.es
+Puedes acceder en: [Organitor.es](https://organitor.es)
+También existe portainer.organitor.es & db.organitor.es, no accesibles al público. Donde una se trata del gestor de contenedores del servidor y la otra trata la base de datos de la web.
 # ¿Qué es Organitor?
-Organitor es el proyecto de fin de Curso de [Alba Gimeno](https://github.com/albagimeno) e [Ismael Castellanos](https://github.com/ismaelct). Se trata de un proyecto de Aplicacion Web desplegada a traves de Docker y con el entorno de ejecución Node.js. 
+Organitor es el proyecto de fin de Curso de [Alba Gimeno](https://github.com/albagimeno) e [Ismael Castellanos](https://github.com/ismaelct). Se trata de un proyecto de Aplicacion Web desplegada a traves de Docker y con el entorno de ejecución Node.js.
 
 # ¿Cuál es la finalidad del proyecto?
 La base del proyecto es crear tanto las herramientas para un facil despliegue y la base de la aplicación web.
 
-Para el despliegue, tendremos _docker file_ y el _docker-compose_ para desplegar la aplicación. Haremos uso de Portainer para desplegar esa pila de docker para que sea más amigable al usuario. 
+Para el iniciar el proyecto, usaremos _Portainer_[^1] un gestor de contenedores de _Docker_[^2]. Lo usaremos para desplegar los _stacks_, que es como denomina _Portainer_ a _Docker-Compose_[^3], también haremos uso de _Dockerfile_[^4] desde el propio gestor de contenedores.
 
-Para la web, haremos uso de _Node.js_ usando _Expressjs_ como framework principal y con distintos modulos para todo el apartado del _back-end_, junto con _Bootstrap_ para el css y _JavaScript_ para el _front-end_.
+Para el apartado web, haremos uso de _Node.js_[^5] usando _Express.js_[^6] como framework principal y con distintos modulos para todo el apartado del _back-end_, junto con _Bootstrap_[^7] para el css y _JavaScript_ para el _front-end_.
 
-Para el almacenamiento de datos utilizaremos _MongoDB_ dentro de la pila de _docker-compose_.
+Para el almacenamiento de datos utilizaremos _MongoDB_[^8] dentro del _stack_ de servicios que desplegaremos.
 s)
+
+También utilizamos _Mongo-Express_[^9] que se trata de un administrador web para las bases de datos de MonogoDB.
 	
 ## Tecnologías
 El proyecto esta creado con:
-* [Docker](https://docs.docker.com/) 
-    * [Dockerfile](https://docs.docker.com/engine/reference/builder/)
-* [Docker-Compose](https://docs.docker.com/compose/) v2, 3 & 3.9
+* [^7].[Boostrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) v5.1.3
+* ['Cloudflare DDNS'](https://github.com/oznu/docker-cloudflare-ddns) Commit: _a96b637 el día 3 de Dic 2021_
+* [^2].[Docker](https://docs.docker.com/) 
+    * [^4].[Dockerfile](https://docs.docker.com/engine/reference/builder/)
+* [^3].[Docker-Compose](https://docs.docker.com/compose/) v2, 3 & 3.9
 * [Httpd-Apache](https://httpd.apache.org/docs/2.4/)
-* [MongoDB](https://www.mongodb.com/docs/) v5.0.8
-* [Mongo-Express Container](https://hub.docker.com/_/mongo-express) v1.0.0-alpha.4
-* [Portainer](https://docs.portainer.io/) v2.13.1
-* [Node.js](https://nodejs.org/es/docs/) v18.2.0
+* [^8].[MongoDB](https://www.mongodb.com/docs/) v5.0.8
+* [^9].[Mongo-Express](https://github.com/mongo-express/mongo-express) v1.0.0-alpha.4
+* [^1].[Portainer](https://docs.portainer.io/) v2.13.1
+* [^5].[Node.js](https://nodejs.org/es/docs/) v18.2.0
     * [Bcrypt.js](https://www.npmjs.com/package/bcryptjs) v2.4.3
     * [Connect-flash](https://www.npmjs.com/package/connect-flash) v0.1.1
     * [Cors](https://www.npmjs.com/package/cors) v2.8.5
     * [dotenv](https://www.npmjs.com/package/dotenv) v16.0.0
-    * [Express.js](https://www.npmjs.com/package/express) v4.18.1
+    * [^6].[Express.js](https://www.npmjs.com/package/express) v4.18.1
     * [Express-handlebars](https://www.npmjs.com/package/express-handlebars) v6.0.5
     * [Express-session](https://www.npmjs.com/package/express-session) v1.17.2
     * [handlebars](https://www.npmjs.com/package/handlebars) v4.7.7
