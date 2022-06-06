@@ -13,13 +13,14 @@ s)
 	
 ## Tecnologías
 El proyecto esta creado con:
-* Docker
-* Dockerfile
-* Docker-Compose
-* Portainer
-* Apache
-* MongoDB
-* Node.js
+* [Docker](https://docs.docker.com/)
+* [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+* [Docker-Compose](https://docs.docker.com/compose/)
+* [Portainer](https://docs.portainer.io/)
+* [Httpd-Apache](https://httpd.apache.org/docs/2.4/)
+* [MongoDB](https://www.mongodb.com/docs/)
+* [Node.js](https://nodejs.org/es/docs/)
+    Modulos de Node:
     * [Cors](https://www.npmjs.com/package/cors)
     * [Connect-flash](https://www.npmjs.com/package/connect-flash)
     * [Bcrypt.js](https://www.npmjs.com/package/bcryptjs)
