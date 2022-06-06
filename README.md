@@ -10,12 +10,5 @@ Para la web, haremos uso de _Node.js_ usando _Expressjs_ como framework principa
 
 Para el almacenamiento de datos utilizaremos _MongoDB_ dentro de la pila de _docker-compose_.
 
-## Organigrama
-- [Docker](docker)
-- [Aplicación Web](web)
-    - [Modulos pre-descargados](web/node_modules)
-    - [Requerimientos de Node](web/package.json)
-    - [Archivo dotenv con variables](web/.env)
-    - [Archivos de web](web/src)
-        - [Inicio de la aplicación](web/src/index.js)
+
         
