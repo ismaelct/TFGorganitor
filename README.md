@@ -1,4 +1,4 @@
-        # ¿Qué es Organitor?
+# ¿Qué es Organitor?
 Organitor es el proyecto de fin de Curso de [Alba Gimeno](https://github.com/albagimeno) e [Ismael Castellanos](https://github.com/ismaelct). Se trata de un proyecto de Aplicacion Web desplegada a traves de Docker y con el entorno de ejecución Node.js. 
 
 # ¿Cuál es la finalidad del proyecto?
@@ -19,25 +19,26 @@ El proyecto esta creado con:
 * Portainer
 * Apache
 * MongoDB
-* Node.JS
+* Node.js
         * [Cors](https://www.npmjs.com/package/cors)
-        * [Express.JS](https://www.npmjs.com/package/express)
         * [Connect-flash](https://www.npmjs.com/package/connect-flash)
-        * Bcryptjs
-        * Express-handlebars
-        * Express-session
-        * method-override
-        * mongoose
-        * passport
-        * passport-local
-        * dotenv
-        * nodemon
-        * handlebars hbs
-        * npm-check-updates
-        * morgan
-        * jsonwebtoken
-        * nodemailer
-
+        * [Bcrypt.js](https://www.npmjs.com/package/bcryptjs)
+        * [Express.js](https://www.npmjs.com/package/express)
+        * [Express-handlebars](https://www.npmjs.com/package/express-handlebars)
+        * [Express-session](https://www.npmjs.com/package/express-session)
+        * [method-override](https://www.npmjs.com/package/method-override)
+        * [mongoose](https://www.npmjs.com/package/mongoose)
+        * [passport](https://www.npmjs.com/package/passport)
+        * [passport-local](https://www.npmjs.com/package/passport-local)
+        * [dotenv](https://www.npmjs.com/package/dotenv)
+        * [nodemon](https://www.npmjs.com/package/nodemon)
+        * [handlebars](https://www.npmjs.com/package/handlebars)
+                * [@handlebars/allow-prototype-access](https://www.npmjs.com/package/@handlebars/allow-prototype-access)
+        * [hbs](https://www.npmjs.com/package/hbs)
+        * [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+        * [morgan](https://www.npmjs.com/package/morgan)
+        * [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+        * [nodemailer](https://www.npmjs.com/package/nodemailer)
 
   
  
