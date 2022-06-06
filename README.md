@@ -18,21 +18,21 @@ También utilizamos _Mongo-Express_[^9] que se trata de un administrador web par
 	
 ## Tecnologías
 El proyecto esta creado con:
-* [^7].[Boostrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) v5.1.3
+* [^7]: [Boostrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) v5.1.3
 * ['Cloudflare DDNS'](https://github.com/oznu/docker-cloudflare-ddns) Commit: _a96b637 el día 3 de Dic 2021_
-* [^2].[Docker](https://docs.docker.com/) 
-    * [^4].[Dockerfile](https://docs.docker.com/engine/reference/builder/)
-* [^3].[Docker-Compose](https://docs.docker.com/compose/) v2, 3 & 3.9
+* [^2]: [Docker](https://docs.docker.com/) 
+    * [^4]: [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+* [^3]: [Docker-Compose](https://docs.docker.com/compose/) v2, 3 & 3.9
 * [Httpd-Apache](https://httpd.apache.org/docs/2.4/)
-* [^8].[MongoDB](https://www.mongodb.com/docs/) v5.0.8
-* [^9].[Mongo-Express](https://github.com/mongo-express/mongo-express) v1.0.0-alpha.4
-* [^1].[Portainer](https://docs.portainer.io/) v2.13.1
-* [^5].[Node.js](https://nodejs.org/es/docs/) v18.2.0
+* [^8] [MongoDB](https://www.mongodb.com/docs/) v5.0.8
+* [^9]: [Mongo-Express](https://github.com/mongo-express/mongo-express) v1.0.0-alpha.4
+* [^1]: [Portainer](https://docs.portainer.io/) v2.13.1
+* [^5]: [Node.js](https://nodejs.org/es/docs/) v18.2.0
     * [Bcrypt.js](https://www.npmjs.com/package/bcryptjs) v2.4.3
     * [Connect-flash](https://www.npmjs.com/package/connect-flash) v0.1.1
     * [Cors](https://www.npmjs.com/package/cors) v2.8.5
     * [dotenv](https://www.npmjs.com/package/dotenv) v16.0.0
-    * [^6].[Express.js](https://www.npmjs.com/package/express) v4.18.1
+    * [^6]: [Express.js](https://www.npmjs.com/package/express) v4.18.1
     * [Express-handlebars](https://www.npmjs.com/package/express-handlebars) v6.0.5
     * [Express-session](https://www.npmjs.com/package/express-session) v1.17.2
     * [handlebars](https://www.npmjs.com/package/handlebars) v4.7.7
