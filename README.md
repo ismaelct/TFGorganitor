@@ -33,7 +33,7 @@ El proyecto esta creado con:
     * [dotenv](https://www.npmjs.com/package/dotenv)
     * [nodemon](https://www.npmjs.com/package/nodemon)
     * [handlebars](https://www.npmjs.com/package/handlebars)
-    * [@handlebars/allow-prototype-access](https://www.npmjs.com/package/@handlebars/    allow-prototype-access)
+    * [@handlebars/allow-prototype-access](https://www.npmjs.com/package/@handlebars/allow-prototype-access)
     * [hbs](https://www.npmjs.com/package/hbs)
     * [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
     * [morgan](https://www.npmjs.com/package/morgan)
